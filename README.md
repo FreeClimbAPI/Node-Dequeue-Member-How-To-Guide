@@ -1,6 +1,6 @@
 # Node - Dequeue a Member Tutorial
 
-This project serves as a guide to help you build an application with FreeClimb. Specifically, the project will:
+This project serves as a guide to help you build an application with FreeClimb. View this tutorial on [FreeClimb.com](https://docs.freeclimb.com/docs/dequeue-member-1#section-javascript). Specifically, the project will:
 
 - Remove a call from a call queue and interact with the dequeue call   
 
