@@ -10,10 +10,10 @@ const freeClimbConfig = freeclimbSDK.createConfiguration({
   accountId,
   apiKey,
 });
-const apiInstance = new freeclimbSDK.DefaultApi(freeClimbConfig);
+const freeclimb = new freeclimbSDK.DefaultApi(freeClimbConfig);
 
 // Invoke dequeue queued call
-apiInstance
+freeclimb
   .dequeueAMember(queueId, callId)
   .then((member) => {
     /* Use the queue member */
